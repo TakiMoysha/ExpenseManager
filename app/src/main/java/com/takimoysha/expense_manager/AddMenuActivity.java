@@ -18,6 +18,7 @@ public class AddMenuActivity extends AppCompatActivity {
     private EditText title;
     private EditText price;
     private Button add_price;
+    private Button subtract_price;
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -43,6 +44,7 @@ public class AddMenuActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 add_price.setEnabled(!TextUtils.isEmpty(s));
+                subtract_price.setEnabled(!TextUtils.isEmpty(s));
             }
         });
 

@@ -4,12 +4,14 @@
     <string name="costs">Расходы</string>
     <string name="title">Название</string>
     <string name="inputTitle">Название</string>
-    <string name="inputPrice">0.0 Руб</string>
-    <string name="price">0.0 Руб</string>
+    <string name="inputPrice">0.0 ₽</string>
+    <string name="price">0.0 ₽</string>
     <string name="transaction">Транзакция</string>
     <string name="plus">Добавить</string>
     <string name="minus">Вычесть</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="products">Продукты</string>
-    <string name="title_check_activity_history">Продукты</string>
+    <string name="title_history_activity">История</string>
+    <string name="title_statistics_activity">Статистика</string>
+    <string name="title_add_menu_activity">Добавть транзакцию</string>
 </resources>

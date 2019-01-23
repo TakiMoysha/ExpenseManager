@@ -39,6 +39,14 @@
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:background="@drawable/plus_black_24dp"/>
+        <Button
+            android:id="@+id/subtract_price"
+            android:enabled="false"
+            android:layout_weight="0"
+            android:layout_marginStart="6dp"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:background="@drawable/minus_black_24dp"/>
     </LinearLayout>
 
 </LinearLayout>
